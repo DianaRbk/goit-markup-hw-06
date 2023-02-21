@@ -707,12 +707,15 @@ button {
 .modal-form-icon {
   position: absolute;
   display: block;
+  align-items: center;
+  justify-content: center;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-45%);
   left: 19px;
   fill: var(--primary-bg-color);
   transition: icon-color var(--transition-duration-and-func);
 }
+
 .modal-form-input:focus + .modal-form-icon {
   fill: var(--order-button-bg-color);
 }
